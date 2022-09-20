@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+*,
+html{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+
+}
+
+
+    .navbar{
+        display: flex;
+        width: auto;
+        background-color: rgb(2, 39, 8);
+        height: 70px;
+        padding: 0px 0px 0px 0px;
+        align-items: center;
+
+}
+
+.menu-navbar{
+    display: flex;
+    align-items: left;
+    width: 45%;
+    justify-content: space-between;
+    padding: 0px 0px 0px 500px;
+    font-family: 'Lato', sans-serif;
+    }
+
+.logo{
+    width: 4%;
+    padding: 0 0 0 0;
+}
+
+
+
+.header-list li{
+    float: right;
+    padding: 20px 20px;
+}
+
+.main{
+    height: 700px;
+    /* background-color: rgb(142, 245, 117); */
+    background-image: url('pandawa.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 300px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+
+}
+.visi{
+    font-size: 20px;
+ color: white;
+}
+
+.copy-container h1{
+    margin: auto;
+    left: 0;
+    right: 0;
+    color: black (13, 14, 14);
+}
+
+.footer{
+    height: 150px;
+    background-color: rgb(38, 61, 29);
+    color: white;
+}
+
+.footer-list li{
+    padding: 5px 20px;
+}
+.btn-wrapper{
+    font-family: 'Lato', sans-serif;
+   border-radius: 4px;
+   padding: 30px 24px 25px 36px;
+   display: inline-block;
+   font-size: 15pt;
+   color: white;
+   
+
+}
+.btn-email{
+    background-color:  rgb(48, 122, 85);
+    border-radius: 15px;
+    padding: 8px;
+  
+}
+.btn-facebook{
+    background-color: rgb(48, 122, 85);
+    border-radius: 15px;
+    padding: 8px;
+}
+
+.Contact-Form{
+    font-size: 15pt;
+    color:white;
+}
+.kotak-hubungi p{
+    font-weight: 500;
+}
+
+.tengah{
+    padding: 10px;
+    
+}
+.section-title{
+    font-size: medium;
+    padding:10px;
+}
+
+.isi-koran{
+    -webkit-column-count: 4;
+}
